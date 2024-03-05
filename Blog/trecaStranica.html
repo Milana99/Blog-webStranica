@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt stranica</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="topnav">
+            <a href="prvaStranica.html">Home</a>
+            <a href="drugaStranica.html">About</a>
+            <a class="active">Contact</a>
+            <div id="potpis">Milana`s blog<img id="cvetic" src="slike/cvetic.png"></div>
+
+        </div>
+    </header>
+
+    <main id="main-kontakt">
+        <fieldset id="fieldset-kontakt">
+            <legend id="naslov-kontakt"><img id="cvet1" src="slike/flower1.png">Kontaktiraj me<img id="cvet2"
+                    src="slike/flower1.png">
+            </legend>
+            <article>
+                <div id="div-kontakt">
+                    <div id="div-kontakt-dm">
+                        <a class="ikonica-k" href="https://instagram.com" target="_blank">
+                            <img src="slike/fb-k.png" />
+                        </a>
+                        <p><strong>Facebook:</strong> </p>
+                        <a class="link" href="https://www.facebook.com/" target="_blank">https://www.facebook.com/</a>
+                    </div>
+                    <div id="div-kontakt-dm">
+                        <a class="ikonica-k" href="https://instagram.com" target="_blank">
+                            <img src="slike/ig-k.png" />
+                        </a>
+                        <p><strong>Instagram:</strong> </p>
+
+                        <a class="link" href="https://www.instagram.com/" target="_blank">https://www.instagram.com/</a>
+                    </div>
+                    <div id="div-kontakt-dm">
+                        <a class="ikonica-k" href="https://instagram.com" target="_blank">
+                            <img src="slike/tt-k.png" />
+                        </a>
+                        <p><strong>Twitter:</strong> </p>
+                        <a class="link" href="https://www.twitter.com/" target="_blank">https://www.twitter.com/</a>
+                    </div>
+                    <div id="div-kontakt-dm">
+                        <a class="ikonica-k" href="#">
+                            <img src="slike/tel-k.png" />
+                        </a>
+                        <p><strong>Telefon:</strong></p>
+                        <a class="link">+381 123456 78</a>
+                    </div>
+                    <div>
+                        <fieldset id="fieldset-lokacija">
+                            <legend id="naslov-lokacija">Moja lokacija<img>
+                            </legend>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d22467.501847440755!2d19.8311936!3d45.2591616!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssr!2srs!4v1702308206645!5m2!1ssr!2srs"
+                                width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </fieldset>
+                    </div>
+                </div>
+
+            </article>
+        </fieldset>
+        <fieldset id="fieldset-pisi-mi">
+            <legend id="naslov-kontakt"><img id="cvet1" src="slike/flower1.png">Piši mi<img id="cvet2"
+                    src="slike/flower1.png">
+            </legend>
+            <form>
+                <div id="inputTexta">
+                    <input type="text" name="ime" placeholder="Upiši svoje ime" style="margin-top: 15%;" required
+                        minlength="5" />
+                </div>
+                <br />
+                <div id="inputTexta">
+                    <input type="text" name="prezime" placeholder="Upiši svoje prezime" />
+                </div>
+                <br />
+                <div id="inputTexta">
+                    <input type="text" name="brojTelefona" placeholder="Upiši svoj broj telefona" required />
+                </div>
+                <br />
+                <div id="inputTexta">
+                    <input type="text" name="email" placeholder="Upiši svoj email" required />
+                </div>
+                <br />
+                <div>
+                    <textarea type="text" name="poruka" placeholder="Ovde pišeš poruku..." maxlength="100"></textarea>
+                </div>
+                <div>
+                    <input id="dugme" name="submit" type="submit" value="Pošalji" />
+                </div>
+            </form>
+        </fieldset>
+    </main>
+
+    <footer>
+        <div id="potpis">Milana`s blog<img id="cvetic" src="slike/cvetic.png"></div>
+        <div class="ikonice">
+            <a href="https://facebook.com" target="_blank">
+                <img src="slike/fb.png" />
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="slike/ig.png" />
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="slike/tt.png" />
+            </a>
+        </div>
+        <div id="prava">Copyright © 2023</div>
+    </footer>
+
+</body>
+
+</html>
